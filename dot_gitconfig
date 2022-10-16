@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	email = me@filip.dev
+	name = filipVisko
+[push]
+	autoSetupRemote = true
