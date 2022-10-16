@@ -1,0 +1,15 @@
+theme = "monokai_pro"
+
+[editor]
+line-number = "relative"
+mouse = true
+idle-timeout = 0
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "diagnostics"]
+center = ["position-percentage", "file-name"]
+right = ["position", "file-line-ending"]
+

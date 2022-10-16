@@ -1,0 +1,20 @@
+# autogen
+HISTFILE=~/.histfile
+HISTSIZE=1000000
+SAVEHIST=1000000
+bindkey -v
+zstyle :compinstall filename '/home/filip/.zshrc'
+
+autoload -Uz compinit
+compinit
+# end of lines from autogen
+
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export GOPATH="~/go"
+export GOBIN="${GOPATH}/bin"
+export EDITOR="helix"
+export PATH="${GOBIN}:${PATH}"
+
