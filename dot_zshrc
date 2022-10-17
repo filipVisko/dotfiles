@@ -18,3 +18,4 @@ export GOBIN="${GOPATH}/bin"
 export EDITOR="helix"
 export PATH="${GOBIN}:${PATH}"
 
+. /opt/asdf-vm/asdf.sh
