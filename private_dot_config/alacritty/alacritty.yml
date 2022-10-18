@@ -38,3 +38,24 @@ scrolling:
 
 opacity: 1
 
+
+# Font Customization
+font:
+  normal:
+    family: Berkeley Mono
+    style: Regular
+  bold:
+    family: Berkeley Mono
+    style: Bold
+  italic:
+    family: Berkeley Mono
+    style: Italic
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  debug:
+    persistent_logging: false
+draw_bold_text_with_bright_colors: true
