@@ -38,8 +38,6 @@ scrolling:
 
 opacity: 1
 
-
-# Font Customization
 font:
   normal:
     family: Berkeley Mono
