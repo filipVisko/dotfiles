@@ -1,0 +1,22 @@
+theme = "ferra"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.statusline]
+left = [
+  "mode",
+  "spinner",
+  "file-name",
+  "file-modification-indicator",
+]
+center = [
+  "version-control",
+  "read-only-indicator",
+]
+
+[editor.file-picker]
+hidden = false
+
+

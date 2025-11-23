@@ -1,0 +1,23 @@
+[init]
+	defaultBranch = main
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	br = branch
+	ci = commit
+	st = status
+	co = checkout
+[core]
+	pager = delta
+	excludesFile = ~/.gitignore
+[user]
+	email = "10026776+filipVisko@users.noreply.github.com"
+	name = filipVisko
+[push]
+	autoSetupRemote = true
+[delta]
+	navigate = true
+	light = false
+	side-by-side = true
