@@ -23,5 +23,5 @@ multiplier = 5
 
 [general]
 import = [
-  "ferra.toml",
+  "kanagawa.toml",
 ]
